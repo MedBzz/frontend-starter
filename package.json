@@ -1,0 +1,33 @@
+{
+  "name": "frontend-starter",
+  "version": "1.0.0",
+  "description": "Uikit 3 template starter",
+  "main": "index.js",
+  "scripts": {
+    "watch": "gulp watch",
+    "build": "gulp build"
+  },
+  "keywords": [
+    "uikit",
+    "gulp",
+    "starter"
+  ],
+  "author": "Mohamed Bouazzi",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-image": "^6.2.1",
+    "gulp-nunjucks": "^5.1.0",
+    "gulp-pretty-html": "^2.0.10",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-prettify": "^0.5.0",
+    "gulp-sass": "^4.1.0",
+    "uikit": "^3.6.16"
+  }
+}

@@ -1,0 +1,11 @@
+{% set data = { name: 'Page'} %}
+
+{% set page = data.name %}
+
+{% extends "layouts/default.njk" %}
+
+{% block content %}
+    <main>
+        Simple page {{ data.name }}
+    </main>
+{% endblock %}
